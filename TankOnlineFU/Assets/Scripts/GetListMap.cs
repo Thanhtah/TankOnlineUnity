@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Button = UnityEngine.UI.Button;
 
 public class GetListMap : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class GetListMap : MonoBehaviour
             child.transform.position = new Vector2(960, y);
             y = y - 75;
             child.GetComponentInChildren<GameObject>().GetComponentInChildren<Text>().text=  map;
+            //Button btn = child.GetComponentInChildren<Button>().onClick.AddListener(() => ButtonClicked(42));
         }
     }
 
