@@ -18,7 +18,7 @@ public class Menu : MonoBehaviour
     public GameObject gameObjectWater;
     public void LoadConstructionMap()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(2);
     }
     public void LoadMap()
     {
